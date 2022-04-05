@@ -133,7 +133,7 @@ if __name__ == "__main__":
     cluster_reads = ClusterReadsWithImputation(
         bam_a=input_bam_a,
         bam_b=input_bam_b,
-        bin_size=100,
+        bin_size=bin_size,
         bins_file=bins_file,
         output_directory=output_dir,
         num_processors=num_processors,
